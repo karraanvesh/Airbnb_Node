@@ -3,6 +3,7 @@ package main
 import (
 	"AuthInGo/app"
 	config "AuthInGo/config/env"
+	
 )
 
 func main() {
@@ -11,6 +12,8 @@ func main() {
 
 	cfg := app.NewConfig()
 	app := app.NewApplication(cfg)
+
+	
 
 	app.Run()
 }
